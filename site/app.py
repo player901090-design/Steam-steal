@@ -6,8 +6,8 @@ from datetime import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse, unquote
 
-LOGIN = "JD_REZ937"
-PASSWORD = "gsdgt287fdat2"
+LOGIN = "ЛОГИН АДМИНА ВАШЕЙ ПАНЕЛИ"
+PASSWORD = "ПАРОЛЬ АДМИНА ВАШЕЙ ПАНЕЛИ"
 SITE_DIR = os.path.dirname(os.path.abspath(__file__))
 SESSIONS = set()
 
